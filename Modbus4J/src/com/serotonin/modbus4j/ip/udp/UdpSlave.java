@@ -36,10 +36,10 @@ import com.serotonin.modbus4j.ip.encap.EncapMessageParser;
 import com.serotonin.modbus4j.ip.encap.EncapRequestHandler;
 import com.serotonin.modbus4j.ip.xa.XaMessageParser;
 import com.serotonin.modbus4j.ip.xa.XaRequestHandler;
-import com.serotonin.modbus4j.sero.messaging.IncomingMessage;
-import com.serotonin.modbus4j.sero.messaging.IncomingRequestMessage;
-import com.serotonin.modbus4j.sero.messaging.OutgoingResponseMessage;
-import com.serotonin.modbus4j.sero.util.queue.ByteQueue;
+import com.serotonin.modbus4j.messaging.IncomingMessage;
+import com.serotonin.modbus4j.messaging.IncomingRequestMessage;
+import com.serotonin.modbus4j.messaging.OutgoingResponseMessage;
+import com.serotonin.modbus4j.util.queue.ByteQueue;
 
 public class UdpSlave extends ModbusSlaveSet {
     // Configuration fields

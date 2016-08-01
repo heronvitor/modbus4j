@@ -39,8 +39,8 @@ import com.serotonin.modbus4j.ip.encap.EncapMessageParser;
 import com.serotonin.modbus4j.ip.encap.EncapRequestHandler;
 import com.serotonin.modbus4j.ip.xa.XaMessageParser;
 import com.serotonin.modbus4j.ip.xa.XaRequestHandler;
-import com.serotonin.modbus4j.sero.messaging.MessageControl;
-import com.serotonin.modbus4j.sero.messaging.TestableTransport;
+import com.serotonin.modbus4j.messaging.MessageControl;
+import com.serotonin.modbus4j.messaging.TestableTransport;
 
 public class TcpSlave extends ModbusSlaveSet {
     // Configuration fields

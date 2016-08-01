@@ -22,10 +22,10 @@ package com.serotonin.modbus4j.serial.rtu;
 
 import com.serotonin.modbus4j.base.ModbusUtils;
 import com.serotonin.modbus4j.exception.ModbusTransportException;
+import com.serotonin.modbus4j.messaging.IncomingResponseMessage;
+import com.serotonin.modbus4j.messaging.OutgoingResponseMessage;
 import com.serotonin.modbus4j.msg.ModbusResponse;
-import com.serotonin.modbus4j.sero.messaging.IncomingResponseMessage;
-import com.serotonin.modbus4j.sero.messaging.OutgoingResponseMessage;
-import com.serotonin.modbus4j.sero.util.queue.ByteQueue;
+import com.serotonin.modbus4j.util.queue.ByteQueue;
 
 /**
  * Handles the RTU enveloping of modbus responses.

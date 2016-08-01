@@ -21,7 +21,7 @@
 package com.serotonin.modbus4j.msg;
 
 import com.serotonin.modbus4j.exception.ModbusTransportException;
-import com.serotonin.modbus4j.sero.util.queue.ByteQueue;
+import com.serotonin.modbus4j.util.queue.ByteQueue;
 
 /**
  * @author Matthew Lohbihler

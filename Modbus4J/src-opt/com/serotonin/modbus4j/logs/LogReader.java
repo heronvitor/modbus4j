@@ -5,11 +5,11 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 import com.serotonin.modbus4j.base.BaseMessageParser;
+import com.serotonin.modbus4j.io.LineHandler;
+import com.serotonin.modbus4j.io.StreamUtils;
+import com.serotonin.modbus4j.messaging.IncomingMessage;
 import com.serotonin.modbus4j.serial.rtu.RtuMessageParser;
-import com.serotonin.modbus4j.sero.io.LineHandler;
-import com.serotonin.modbus4j.sero.io.StreamUtils;
-import com.serotonin.modbus4j.sero.messaging.IncomingMessage;
-import com.serotonin.modbus4j.sero.util.queue.ByteQueue;
+import com.serotonin.modbus4j.util.queue.ByteQueue;
 
 public class LogReader {
     //    static String filename = "logs/anders.txt";

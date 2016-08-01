@@ -22,8 +22,8 @@ package com.serotonin.modbus4j;
 
 import com.serotonin.modbus4j.code.RegisterRange;
 import com.serotonin.modbus4j.exception.ModbusTransportException;
-import com.serotonin.modbus4j.sero.messaging.DefaultMessagingExceptionHandler;
-import com.serotonin.modbus4j.sero.messaging.MessagingExceptionHandler;
+import com.serotonin.modbus4j.messaging.DefaultMessagingExceptionHandler;
+import com.serotonin.modbus4j.messaging.MessagingExceptionHandler;
 
 /**
  * Base level for masters and slaves/listeners

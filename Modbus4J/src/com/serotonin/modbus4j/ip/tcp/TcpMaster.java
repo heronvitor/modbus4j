@@ -40,14 +40,14 @@ import com.serotonin.modbus4j.ip.encap.EncapWaitingRoomKeyFactory;
 import com.serotonin.modbus4j.ip.xa.XaMessageParser;
 import com.serotonin.modbus4j.ip.xa.XaMessageRequest;
 import com.serotonin.modbus4j.ip.xa.XaWaitingRoomKeyFactory;
+import com.serotonin.modbus4j.messaging.EpollStreamTransport;
+import com.serotonin.modbus4j.messaging.MessageControl;
+import com.serotonin.modbus4j.messaging.OutgoingRequestMessage;
+import com.serotonin.modbus4j.messaging.StreamTransport;
+import com.serotonin.modbus4j.messaging.Transport;
+import com.serotonin.modbus4j.messaging.WaitingRoomKeyFactory;
 import com.serotonin.modbus4j.msg.ModbusRequest;
 import com.serotonin.modbus4j.msg.ModbusResponse;
-import com.serotonin.modbus4j.sero.messaging.EpollStreamTransport;
-import com.serotonin.modbus4j.sero.messaging.MessageControl;
-import com.serotonin.modbus4j.sero.messaging.OutgoingRequestMessage;
-import com.serotonin.modbus4j.sero.messaging.StreamTransport;
-import com.serotonin.modbus4j.sero.messaging.Transport;
-import com.serotonin.modbus4j.sero.messaging.WaitingRoomKeyFactory;
 
 public class TcpMaster extends ModbusMaster {
     private static final int RETRY_PAUSE_START = 50;

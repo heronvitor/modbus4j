@@ -22,10 +22,10 @@ package com.serotonin.modbus4j.ip.encap;
 
 import com.serotonin.modbus4j.base.ModbusUtils;
 import com.serotonin.modbus4j.exception.ModbusTransportException;
+import com.serotonin.modbus4j.messaging.IncomingRequestMessage;
+import com.serotonin.modbus4j.messaging.OutgoingRequestMessage;
 import com.serotonin.modbus4j.msg.ModbusRequest;
-import com.serotonin.modbus4j.sero.messaging.IncomingRequestMessage;
-import com.serotonin.modbus4j.sero.messaging.OutgoingRequestMessage;
-import com.serotonin.modbus4j.sero.util.queue.ByteQueue;
+import com.serotonin.modbus4j.util.queue.ByteQueue;
 
 public class EncapMessageRequest extends EncapMessage implements OutgoingRequestMessage, IncomingRequestMessage {
     static EncapMessageRequest createEncapMessageRequest(ByteQueue queue) throws ModbusTransportException {

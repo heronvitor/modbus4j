@@ -21,11 +21,11 @@
 package com.serotonin.modbus4j.serial.ascii;
 
 import com.serotonin.modbus4j.exception.ModbusTransportException;
+import com.serotonin.modbus4j.messaging.IncomingRequestMessage;
+import com.serotonin.modbus4j.messaging.OutgoingRequestMessage;
 import com.serotonin.modbus4j.msg.ModbusMessage;
 import com.serotonin.modbus4j.msg.ModbusRequest;
-import com.serotonin.modbus4j.sero.messaging.IncomingRequestMessage;
-import com.serotonin.modbus4j.sero.messaging.OutgoingRequestMessage;
-import com.serotonin.modbus4j.sero.util.queue.ByteQueue;
+import com.serotonin.modbus4j.util.queue.ByteQueue;
 
 public class AsciiMessageRequest extends AsciiMessage implements OutgoingRequestMessage, IncomingRequestMessage {
     static AsciiMessageRequest createAsciiMessageRequest(ByteQueue queue) throws ModbusTransportException {

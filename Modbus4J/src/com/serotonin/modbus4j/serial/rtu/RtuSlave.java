@@ -23,9 +23,9 @@ package com.serotonin.modbus4j.serial.rtu;
 import java.io.IOException;
 
 import com.serotonin.modbus4j.exception.ModbusInitException;
+import com.serotonin.modbus4j.messaging.MessageControl;
 import com.serotonin.modbus4j.serial.SerialPortWrapper;
 import com.serotonin.modbus4j.serial.SerialSlave;
-import com.serotonin.modbus4j.sero.messaging.MessageControl;
 
 public class RtuSlave extends SerialSlave {
     // Runtime fields

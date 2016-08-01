@@ -37,10 +37,10 @@ import com.serotonin.modbus4j.ip.encap.EncapMessageParser;
 import com.serotonin.modbus4j.ip.encap.EncapMessageRequest;
 import com.serotonin.modbus4j.ip.xa.XaMessageParser;
 import com.serotonin.modbus4j.ip.xa.XaMessageRequest;
+import com.serotonin.modbus4j.messaging.OutgoingRequestMessage;
 import com.serotonin.modbus4j.msg.ModbusRequest;
 import com.serotonin.modbus4j.msg.ModbusResponse;
-import com.serotonin.modbus4j.sero.messaging.OutgoingRequestMessage;
-import com.serotonin.modbus4j.sero.util.queue.ByteQueue;
+import com.serotonin.modbus4j.util.queue.ByteQueue;
 
 public class UdpMaster extends ModbusMaster {
     private static final int MESSAGE_LENGTH = 1024;

@@ -24,13 +24,13 @@ import java.io.IOException;
 
 import com.serotonin.modbus4j.exception.ModbusInitException;
 import com.serotonin.modbus4j.exception.ModbusTransportException;
+import com.serotonin.modbus4j.messaging.MessageControl;
+import com.serotonin.modbus4j.messaging.StreamTransport;
 import com.serotonin.modbus4j.msg.ModbusRequest;
 import com.serotonin.modbus4j.msg.ModbusResponse;
 import com.serotonin.modbus4j.serial.SerialMaster;
 import com.serotonin.modbus4j.serial.SerialPortWrapper;
 import com.serotonin.modbus4j.serial.SerialWaitingRoomKeyFactory;
-import com.serotonin.modbus4j.sero.messaging.MessageControl;
-import com.serotonin.modbus4j.sero.messaging.StreamTransport;
 
 public class AsciiMaster extends SerialMaster {
     private MessageControl conn;

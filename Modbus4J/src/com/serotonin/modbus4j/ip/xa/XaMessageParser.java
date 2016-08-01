@@ -21,8 +21,8 @@
 package com.serotonin.modbus4j.ip.xa;
 
 import com.serotonin.modbus4j.base.BaseMessageParser;
-import com.serotonin.modbus4j.sero.messaging.IncomingMessage;
-import com.serotonin.modbus4j.sero.util.queue.ByteQueue;
+import com.serotonin.modbus4j.messaging.IncomingMessage;
+import com.serotonin.modbus4j.util.queue.ByteQueue;
 
 public class XaMessageParser extends BaseMessageParser {
     public XaMessageParser(boolean master) {

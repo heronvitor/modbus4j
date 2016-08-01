@@ -21,8 +21,8 @@
 package com.serotonin.modbus4j.serial.rtu;
 
 import com.serotonin.modbus4j.base.BaseMessageParser;
-import com.serotonin.modbus4j.sero.messaging.IncomingMessage;
-import com.serotonin.modbus4j.sero.util.queue.ByteQueue;
+import com.serotonin.modbus4j.messaging.IncomingMessage;
+import com.serotonin.modbus4j.util.queue.ByteQueue;
 
 /**
  * Message parser implementation for RTU encoding. Primary reference for the ordering of CRC bytes. Also provides

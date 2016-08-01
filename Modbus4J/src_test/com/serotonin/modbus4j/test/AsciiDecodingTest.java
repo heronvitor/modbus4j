@@ -1,7 +1,7 @@
 package com.serotonin.modbus4j.test;
 
 import com.serotonin.modbus4j.serial.ascii.AsciiMessageParser;
-import com.serotonin.modbus4j.sero.util.queue.ByteQueue;
+import com.serotonin.modbus4j.util.queue.ByteQueue;
 
 public class AsciiDecodingTest {
     public static void main(String[] args) throws Exception {

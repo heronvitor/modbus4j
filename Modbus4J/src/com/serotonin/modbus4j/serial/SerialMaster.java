@@ -25,9 +25,9 @@ import org.apache.commons.logging.LogFactory;
 
 import com.serotonin.modbus4j.ModbusMaster;
 import com.serotonin.modbus4j.exception.ModbusInitException;
-import com.serotonin.modbus4j.sero.messaging.EpollStreamTransport;
-import com.serotonin.modbus4j.sero.messaging.StreamTransport;
-import com.serotonin.modbus4j.sero.messaging.Transport;
+import com.serotonin.modbus4j.messaging.EpollStreamTransport;
+import com.serotonin.modbus4j.messaging.StreamTransport;
+import com.serotonin.modbus4j.messaging.Transport;
 
 abstract public class SerialMaster extends ModbusMaster {
 	
