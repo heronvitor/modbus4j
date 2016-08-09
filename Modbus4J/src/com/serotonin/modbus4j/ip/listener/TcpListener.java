@@ -94,7 +94,7 @@ public class TcpListener extends ModbusMaster {
                 LOG.debug("handler not null!!!");
             }
             handler = new ListenerConnectionHandler(socket);
-            LOG.debug("Init handler thread");
+            LOG.debug("Init handler thread on port " + ipParameters.getPort());
             executorService.execute(handler);
         }
         catch (Exception e) {
@@ -315,7 +315,7 @@ public class TcpListener extends ModbusMaster {
 
             conn = getMessageControl();
             conn.setExceptionHandler(getExceptionHandler());
-            conn.DEBUG = true;
+            //conn.DEBUG = true;
             conn.start(transport, ipMessageParser, null, waitingRoomKeyFactory);
             if (getePoll() == null)
                 ((StreamTransport) transport).start("Modbus4J TcpMaster");
